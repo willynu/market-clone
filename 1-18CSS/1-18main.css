@@ -47,11 +47,16 @@
 
 .write-button {
     position : fixed;
-    background-color: #fe6f0f;
+    background-color: var(--button-primary);
     color : white;
     padding : 15px 15px 15px 15px;
     border-radius : 15px;
     font-size: 15px;
     bottom : 120px;
     right : 30px;
+    cursor: pointer;
+    transition: all 0.11s ease-in-out;
+}
+.write-button:hover {
+    background-color: var(--button-hover);
 }

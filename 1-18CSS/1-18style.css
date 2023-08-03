@@ -4,6 +4,11 @@
 @import '1-18header.css';
 @import '1-18main.css';
 
+:root{
+    --button-primary:rgb(254,111,15);
+    --button-hover : rgba(254,111,15,0.8);
+}
+
 /* 전체 body에 폰트 넣고 싶을 때 */
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard Variable", Pretendard, Roboto, "Noto Sans KR", "Segoe UI", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
@@ -16,12 +21,11 @@ body{
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     display : flex;
     justify-content: center;
     align-items: center;
-    background-color: salmon;
-    opacity : 1;
+    background-color: white;
 }
 
 @media screen and (max-width:500px){

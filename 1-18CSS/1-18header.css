@@ -1,0 +1,53 @@
+/*class 는 앞에 .을 붙임 */
+/*heroicon 에서 아이콘 가져올 수 있음*/
+header{
+    border-bottom : 1px solid #ededef;
+    margin-top : 10px
+}
+.info-bar{
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    padding : 0px 10px 0px 10px ;
+}
+
+.info-bar__time{
+    font-size :14px;
+    font-weight : bold;
+    padding-left: 10px;
+}
+
+.info-bar__icons img{
+    width : 15px;
+
+}
+
+.menu-bar {
+    display : flex;
+    justify-content: space-between;
+    margin-top : 10px;
+}
+.menu-bar__location{
+    font-size : 24px;
+    font-weight : bold;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 0px 10px 0px 20px ;
+}
+.menu-bar__icons img{
+    width : 25px;
+    margin-right: 10px;
+    
+}
+
+.menu-bar__location img{
+    width:15px;
+}
+
+.menu-bar__location-icon{
+    padding-top: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
